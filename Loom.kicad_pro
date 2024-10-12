@@ -386,6 +386,30 @@
     [
       "fd7e6037-b3ae-4db3-a782-011f61b6fc75",
       "Root"
+    ],
+    [
+      "9331afd7-4896-4476-9703-91eefec41c37",
+      "BSPD"
+    ],
+    [
+      "81a2d232-b56a-457d-8f4d-f7bde46d944b",
+      "Triggers and Plug Detection"
+    ],
+    [
+      "c1af1d02-f1c8-42b8-8d3c-ac3883e05aae",
+      "State Machine"
+    ],
+    [
+      "826ea561-bd97-47c9-84f4-03823390cccb",
+      "Timers"
+    ],
+    [
+      "6659f853-0940-49ae-bcda-2fedad30cd0c",
+      "Power"
+    ],
+    [
+      "e23b6484-bf4c-4467-915e-ff9af2cd8a9e",
+      "Reset Driver"
     ]
   ],
   "text_variables": {}

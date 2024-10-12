@@ -1,0 +1,3 @@
+[submodule "BSPD"]
+	path = BSPD
+	url = https://github.com/Full-Blue-Racing/BSPD

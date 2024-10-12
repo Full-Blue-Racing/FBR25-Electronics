@@ -1236,7 +1236,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FBR_Symbols:Sen_1p_5V")
 		(lib_id "FBR_Symbols:Sen_1p_5V")
 		(at 224.79 87.63 0)
 		(unit 1)
@@ -1684,6 +1683,134 @@
 				(path "/fd7e6037-b3ae-4db3-a782-011f61b6fc75"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 26.67)
+		(size 17.78 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9331afd7-4896-4476-9703-91eefec41c37")
+		(property "Sheetname" "BSPD"
+			(at 215.9 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BSPD/BSPD.kicad_sch"
+			(at 215.9 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TPS_Sig" input
+			(at 215.9 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf0c0421-12b2-471a-b045-d74ae93e235c")
+		)
+		(pin "TPS_GND" output
+			(at 215.9 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89b7ff9a-9e8c-4adc-a303-c1ec04cbcd15")
+		)
+		(pin "TPS_Power" output
+			(at 215.9 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfd5d0bc-d82d-4ddc-b0b4-56fe7dc1051d")
+		)
+		(pin "BPS_Sig" input
+			(at 215.9 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "340549a1-798d-47be-806b-97bbcb7c2f01")
+		)
+		(pin "BPS_GND" output
+			(at 215.9 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88e790c7-be6d-4d0a-856b-36fcfff5ad6b")
+		)
+		(pin "ShutdownNO" output
+			(at 215.9 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86525895-56ef-47f1-a438-a5b420517833")
+		)
+		(pin "ShutdownNC" output
+			(at 215.9 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d572dcbf-d17f-418d-9766-2b2f2ee96371")
+		)
+		(pin "ShutdownC" output
+			(at 215.9 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eccef9f0-8b8a-4aca-9374-bf00ea432426")
+		)
+		(pin "BPS_Power" output
+			(at 215.9 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52cff6f0-aebe-4a1f-9da7-6407532662d1")
+		)
+		(instances
+			(project "Loom"
+				(path "/fd7e6037-b3ae-4db3-a782-011f61b6fc75"
+					(page "2")
 				)
 			)
 		)
