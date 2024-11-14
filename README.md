@@ -1,5 +1,31 @@
 # FBR25-Electronics
 
+## Setting up Footprint and Symbol libraries
+
+1. Clone this repository to a sensible place on your PC, e.g. inside `Documents/FBR/`. Remember where it is stored.
+
+2. Install the symbol library:
+
+   1. In KiCad, click **Preferences** > **Manage Symbol Libraries**. Ensure you are on the **Global Libraries** tab in the dialog box.
+
+   2. Click the open button in the bottom left. Navigate to where you cloned this repository and open `FBR-Symbols.kicad_sym`. Click OK.
+  
+3. Install the footprint library:
+
+   1. In KiCad, click **Preferences** > **Manage Footprint Libraries**. Ensure you are on the **Global Libraries** tab in the dialog box.
+
+   2. Click the open button in the bottom left. Navigate to where you cloned this repository and open `FBR-Footprints.pretty`. Click OK.
+  
+4. Setup the 3D symbol library: (This step is optional, but will make both the 3D view of your PCB, and any exported 3D models, much more complete)
+
+   1. In KiCad, click **Preferences** > **Configure Paths...**.
+
+   2. Click the "+" icon to add a new entry. Set "Name" to `FBR_3D_MODELS`.
+
+   3. Set "Path" to the location of this repository, followed by `FBR_3D_MODELS` - for example, `/home/oliver/Documents/FBR/FBR25-Electronics/FBR_3D_MODELS`.
+
+   4. Click OK.
+
 ## Creating a PCB Project
 
 1. Create a new respository, using the template, by going to [the template repository](https://github.com/Full-Blue-Racing/ElectronicsProjectTemplate), and pressing "Use This Template"
