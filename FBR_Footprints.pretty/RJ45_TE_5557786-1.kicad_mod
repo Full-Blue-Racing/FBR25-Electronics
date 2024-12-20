@@ -179,7 +179,7 @@
 		(remove_unused_layers no)
 		(uuid "08808327-da8c-49f6-8bc1-eae02ba556e9")
 	)
-	(model "/media/windows/Users/olive/Downloads/c-5557789-01-a-3d.stp"
+	(model "${FBR_3D_MODELS}/5557786-1.stp"
 		(offset
 			(xyz 4.5 -17 7)
 		)
