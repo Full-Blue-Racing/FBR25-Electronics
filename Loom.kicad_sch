@@ -5838,7 +5838,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 365.76) (xy 139.7 365.76)
+			(xy 81.28 365.76) (xy 142.24 365.76)
 		)
 		(stroke
 			(width 0)
@@ -6105,6 +6105,17 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 342.9) (xy 139.7 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "38f3a134-9978-4bd0-8f9a-527f7aa299d3")
+	)
+	(wire
+		(pts
 			(xy 81.28 287.02) (xy 81.28 210.82)
 		)
 		(stroke
@@ -6145,6 +6156,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3b38afbb-2acd-4111-af4f-b028dad62c09")
+	)
+	(wire
+		(pts
+			(xy 20.32 342.9) (xy 20.32 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3bb64218-207f-42bb-9b14-67f23756362e")
 	)
 	(wire
 		(pts
@@ -6398,7 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 281.94) (xy 132.08 281.94)
+			(xy 220.98 281.94) (xy 132.08 281.94)
 		)
 		(stroke
 			(width 0)
@@ -6545,6 +6567,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 127 0 1)
 		)
 		(uuid "5119cd74-8bca-4b88-870a-c43cf260d8ed")
 	)
@@ -6764,6 +6787,17 @@
 			(type default)
 		)
 		(uuid "5f9336dd-3c7d-42c7-a4ee-5866251e5cb6")
+	)
+	(wire
+		(pts
+			(xy 139.7 342.9) (xy 139.7 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5fe62174-8883-4c95-89b4-439775c6668c")
 	)
 	(wire
 		(pts
@@ -7267,12 +7301,13 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 127 0 1)
 		)
 		(uuid "7d32c4de-fc5a-4b4a-b48e-a02870eb2571")
 	)
 	(wire
 		(pts
-			(xy 139.7 320.04) (xy 541.02 320.04)
+			(xy 142.24 320.04) (xy 541.02 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7558,6 +7593,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 127 0 1)
 		)
 		(uuid "8cdb3a51-e8c2-4732-aa9c-6dc29b05bb55")
 	)
@@ -7893,7 +7929,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 276.86) (xy 215.9 281.94)
+			(xy 220.98 276.86) (xy 220.98 281.94)
 		)
 		(stroke
 			(width 0)
@@ -7993,6 +8029,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 127 0 1)
 		)
 		(uuid "af5f0b7a-3f97-4cad-8c32-a089b7e78cf5")
 	)
@@ -8046,17 +8083,6 @@
 			(type default)
 		)
 		(uuid "b0efca6b-9444-4f75-aa08-6677f8688681")
-	)
-	(wire
-		(pts
-			(xy 20.32 317.5) (xy 139.7 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b1a1fe0e-a38f-4777-a0cd-429d6572d28b")
 	)
 	(wire
 		(pts
@@ -8293,6 +8319,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 127 0 1)
 		)
 		(uuid "bcf292fb-9cee-49ff-aed1-faa8ad9402c4")
 	)
@@ -8765,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 276.86) (xy 215.9 276.86)
+			(xy 210.82 276.86) (xy 220.98 276.86)
 		)
 		(stroke
 			(width 0)
@@ -8926,17 +8953,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "e2649c39-6b1a-462f-af86-a3e289bab23a")
-	)
-	(wire
-		(pts
-			(xy 20.32 317.5) (xy 20.32 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "e3b51243-f28c-4b08-94e1-38f0708c5769")
 	)
 	(wire
 		(pts
@@ -9177,7 +9193,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 320.04) (xy 139.7 365.76)
+			(xy 142.24 320.04) (xy 142.24 365.76)
 		)
 		(stroke
 			(width 0)
@@ -10450,6 +10466,28 @@
 		)
 		(uuid "0595d58f-a660-44f8-8787-b33a6d20d259")
 	)
+	(label "ShiftDn"
+		(at 109.22 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07da0f4f-339b-4b68-b404-5deaaade442d")
+	)
+	(label "SENGND"
+		(at 299.72 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b389b43-252c-4e98-9994-96de3a28b9a1")
+	)
 	(label "Starter_Signal"
 		(at 490.22 88.9 0)
 		(fields_autoplaced yes)
@@ -10460,6 +10498,39 @@
 			(justify left bottom)
 		)
 		(uuid "0b431599-0ab4-4766-83bb-a22b675f3da3")
+	)
+	(label "SPKA"
+		(at 213.36 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cc1f564-9b68-47f5-9c58-08cbfa767f9b")
+	)
+	(label "LambdaPWR"
+		(at 297.18 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e8f7661-bb91-4dce-941e-ad96d0f4bb9d")
+	)
+	(label "CAMSig"
+		(at 299.72 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bd17943-60e0-4265-a158-36653314f86d")
 	)
 	(label "FanPWR"
 		(at 459.74 332.74 0)
@@ -10494,6 +10565,28 @@
 		)
 		(uuid "1deda6eb-041d-4d42-a645-41a17a7afb92")
 	)
+	(label "MAPSig"
+		(at 299.72 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f927d9c-96f2-4885-a15a-19f979c06ad8")
+	)
+	(label "FPSSig"
+		(at 213.36 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26a05037-dc3d-455a-874f-598520b2acab")
+	)
 	(label "LaunchLED"
 		(at 213.36 231.14 0)
 		(fields_autoplaced yes)
@@ -10505,6 +10598,28 @@
 		)
 		(uuid "26fbe824-0bfa-4f9c-810f-f618b8e5a53f")
 	)
+	(label "Neutral"
+		(at 109.22 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2891953f-cfcc-4402-9316-215cf10622eb")
+	)
+	(label "TPS1Sig"
+		(at 213.36 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c281b9d-682f-4329-b3d6-c56afa96e1cd")
+	)
 	(label "Starter_12V"
 		(at 490.22 86.36 0)
 		(fields_autoplaced yes)
@@ -10515,6 +10630,28 @@
 			(justify left bottom)
 		)
 		(uuid "2fd73be5-aa55-482e-ad45-36b329bb31e0")
+	)
+	(label "SENGND"
+		(at 299.72 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33ecc6a8-4aad-450e-ae87-87d9767396e5")
+	)
+	(label "Neutral"
+		(at 299.72 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c19874-bcb5-4e1a-bd4b-4b8ac6333888")
 	)
 	(label "LVMS 12V"
 		(at 58.42 152.4 0)
@@ -10550,6 +10687,50 @@
 		)
 		(uuid "3abd8fc1-bb7e-4420-aef6-96ec1000653c")
 	)
+	(label "CNK+"
+		(at 213.36 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f1e2d2a-c939-4d51-9239-492cc29b726b")
+	)
+	(label "CAMSig"
+		(at 213.36 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c297a6-b761-4ad2-b1ab-b4089f4dadf8")
+	)
+	(label "Tacho"
+		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "417b604f-8718-4528-92b8-a042f65b248d")
+	)
+	(label "INJASIG"
+		(at 213.36 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45627b6e-680c-4a8e-a2f1-1f0087505688")
+	)
 	(label "FPPWR"
 		(at 459.74 327.66 0)
 		(fields_autoplaced yes)
@@ -10561,6 +10742,50 @@
 		)
 		(uuid "4a1d9dcd-37a0-4920-986e-12dfbf8b2228")
 	)
+	(label "SEN5V"
+		(at 299.72 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cb1726b-91b5-408d-8512-d29c403bc297")
+	)
+	(label "INJBSIG"
+		(at 213.36 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f34e2e6-55fb-457d-a9f1-44bf4f753543")
+	)
+	(label "SEN5V"
+		(at 213.2522 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5723ff8f-5bf8-4300-8d79-1c7b32a9ea5b")
+	)
+	(label "Starter_Signal"
+		(at 109.22 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bceb9b9-781c-4d84-b365-428a9052f03c")
+	)
 	(label "INJBPWR"
 		(at 459.74 325.12 0)
 		(fields_autoplaced yes)
@@ -10571,6 +10796,17 @@
 			(justify left bottom)
 		)
 		(uuid "5d18b5fe-d611-42c3-ab9d-154c0dc95249")
+	)
+	(label "CNK+"
+		(at 299.72 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e67d57e-3508-41ac-a325-ba72efb02c64")
 	)
 	(label "LambdaPWR"
 		(at 459.74 312.42 0)
@@ -10594,6 +10830,17 @@
 		)
 		(uuid "6200b6bb-61f9-4f01-a386-0b5ec99a23b0")
 	)
+	(label "CNK-"
+		(at 213.36 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "643c5da0-5e80-400b-9b93-93e79f97e9b1")
+	)
 	(label "QSPWR"
 		(at 459.74 320.04 0)
 		(fields_autoplaced yes)
@@ -10616,6 +10863,28 @@
 		)
 		(uuid "6726b61a-332b-46bc-9f78-605914194e7c")
 	)
+	(label "SERRX"
+		(at 248.92 297.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6965c4d2-3395-4f9c-bd13-cf264e3ece0f")
+	)
+	(label "SERTX"
+		(at 248.92 299.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ab61537-e423-490b-84cd-eaadc3478b7a")
+	)
 	(label "MiscPWR"
 		(at 58.42 276.86 0)
 		(fields_autoplaced yes)
@@ -10626,6 +10895,39 @@
 			(justify left bottom)
 		)
 		(uuid "6b6a8900-5f63-437b-b724-832fd81c5d36")
+	)
+	(label "IATSig"
+		(at 213.36 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f29cc26-8816-4a21-8d1d-88fcfa297eed")
+	)
+	(label "SENGND"
+		(at 299.72 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "760d4337-656f-4e4f-be19-7db4b023ef4a")
+	)
+	(label "ShiftUp"
+		(at 25.4 355.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76aa8643-b5b4-4ed0-baf6-c2a24c6206ad")
 	)
 	(label "LVMS 12V"
 		(at 543.56 152.4 0)
@@ -10638,6 +10940,28 @@
 			(justify left bottom)
 		)
 		(uuid "78eff0ca-3a9b-46f8-be1f-f2dbaebecc5e")
+	)
+	(label "CNK-"
+		(at 299.72 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "829299d8-507a-4cc9-ac19-a8f2e3cc38db")
+	)
+	(label "LambdaSig"
+		(at 297.18 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8501ab48-2606-49aa-8490-a71e787b565d")
 	)
 	(label "StepperPWR"
 		(at 459.74 314.96 0)
@@ -10672,6 +10996,17 @@
 		)
 		(uuid "89c2da48-b37c-4ed0-b031-4a629d8c34df")
 	)
+	(label "FPSSig"
+		(at 299.72 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c40438b-6a00-4fbe-96af-6d9747caef7c")
+	)
 	(label "INJBPWR"
 		(at 386.08 38.1 0)
 		(fields_autoplaced yes)
@@ -10682,6 +11017,17 @@
 			(justify left bottom)
 		)
 		(uuid "93012fdc-896c-4190-b587-ceaeb7d0e693")
+	)
+	(label "SEN5V"
+		(at 299.72 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9439da4d-902f-48a5-9b21-259e9ca786f0")
 	)
 	(label "Idle"
 		(at 99.06 50.8 0)
@@ -10716,6 +11062,17 @@
 		)
 		(uuid "a07f13e8-9d78-444e-a267-d6d84736dd44")
 	)
+	(label "CLTSig"
+		(at 299.72 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a31663cc-6812-41b5-9b26-55717d826aa2")
+	)
 	(label "QS_Blip"
 		(at 129.54 386.08 180)
 		(fields_autoplaced yes)
@@ -10748,6 +11105,17 @@
 			(justify left bottom)
 		)
 		(uuid "b04ac114-7665-4f32-a848-e0e805d8b58a")
+	)
+	(label "SENGND"
+		(at 299.72 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b05791a7-bca7-4c5d-93f6-09b9cf95bfe9")
 	)
 	(label "MiscPWR"
 		(at 459.74 317.5 0)
@@ -10782,6 +11150,17 @@
 		)
 		(uuid "b51ed344-ee80-4207-8945-340a6d4a82f1")
 	)
+	(label "SENGND"
+		(at 299.72 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7dbbdfa-b11f-4357-84e4-d7b1b1405aca")
+	)
 	(label "MiscPWR"
 		(at 99.06 17.78 0)
 		(fields_autoplaced yes)
@@ -10815,6 +11194,17 @@
 		)
 		(uuid "bc6d2b25-0b48-415b-8ed8-e3076afd84ca")
 	)
+	(label "SERGND"
+		(at 248.92 294.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc854cdf-b580-4672-b1e9-40ae2e2a7b95")
+	)
 	(label "LaunchSig"
 		(at 304.8 373.38 0)
 		(fields_autoplaced yes)
@@ -10825,6 +11215,28 @@
 			(justify left bottom)
 		)
 		(uuid "bf935f7e-9496-4dd3-8285-2fa60e3e9ec3")
+	)
+	(label "SENGND"
+		(at 299.72 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f22103-eaed-47fa-b92b-b623404f006f")
+	)
+	(label "SPKB"
+		(at 213.36 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c22efd4e-30df-4340-a37d-fb329653478f")
 	)
 	(label "MiscPWR"
 		(at 139.7 317.5 0)
@@ -10848,6 +11260,17 @@
 		)
 		(uuid "c31e804a-2e07-4ef9-bf47-7666dc000eb9")
 	)
+	(label "ShiftDn"
+		(at 22.86 355.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4f422cf-4a13-4855-bdb9-2dc29dcf5084")
+	)
 	(label "ECUPWR"
 		(at 459.74 309.88 0)
 		(fields_autoplaced yes)
@@ -10858,6 +11281,50 @@
 			(justify left bottom)
 		)
 		(uuid "c6a48a81-fef6-4866-bf13-fddcfb989b12")
+	)
+	(label "MiscPWR"
+		(at 20.32 355.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7115142-8144-48f7-af4e-ad2f40675037")
+	)
+	(label "IATSig"
+		(at 299.72 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf97b17d-fdf9-4f80-bc2e-bc26a2a26cfa")
+	)
+	(label "Tacho"
+		(at 213.36 276.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d41d1e3a-9ec4-4eb0-a117-0bd071484b69")
+	)
+	(label "FanSig"
+		(at 109.22 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5ae9712-8f63-4420-8dd0-84e06663b9d2")
 	)
 	(label "StepperPWR"
 		(at 99.06 20.32 0)
@@ -10870,6 +11337,28 @@
 		)
 		(uuid "db4e82b9-5250-4388-b7bc-db4a3e29c132")
 	)
+	(label "SEN5V"
+		(at 299.72 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dba0eff7-dea0-48d3-82cd-a4dd4c6ce812")
+	)
+	(label "SERRX"
+		(at 213.36 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbccb3f7-0e6f-491a-8f51-1ee3db4457e6")
+	)
 	(label "INJBSIG"
 		(at 386.08 40.64 0)
 		(fields_autoplaced yes)
@@ -10880,6 +11369,17 @@
 			(justify left bottom)
 		)
 		(uuid "e5375c46-e345-4490-883b-1d5395c237b6")
+	)
+	(label "CLTSig"
+		(at 213.36 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8024d28-6444-4d6a-b675-5f93273499c5")
 	)
 	(label "SENGND"
 		(at 213.36 238.76 0)
@@ -10914,6 +11414,17 @@
 		)
 		(uuid "eb986abe-8182-4b98-9a8f-4268fe3d7e56")
 	)
+	(label "LambdaSig"
+		(at 213.36 274.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec40d5a7-eae6-420b-b9ed-3d68f4c40ae9")
+	)
 	(label "FanSig"
 		(at 459.74 261.62 0)
 		(fields_autoplaced yes)
@@ -10924,6 +11435,28 @@
 			(justify left bottom)
 		)
 		(uuid "ef43e36a-2586-4b16-9435-fc41d5aae5f7")
+	)
+	(label "MAPSig"
+		(at 213.36 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f142c8fe-1cba-489e-99aa-5e110aaa6862")
+	)
+	(label "ShiftUp"
+		(at 109.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e93398-5a5a-4c66-8af0-7137ca659636")
 	)
 	(label "FPSig"
 		(at 459.74 208.28 0)
@@ -10946,6 +11479,17 @@
 			(justify left bottom)
 		)
 		(uuid "f753e5c0-6c4f-4316-9b27-81c8ef3aa101")
+	)
+	(label "SERTX"
+		(at 213.36 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb708f8-176c-4e50-879d-df99e74c118f")
 	)
 	(global_label "CANH"
 		(shape input)
