@@ -13168,7 +13168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdfbfa5e-6379-4196-9897-7e3805ff71af")
-		(property "Reference" "LES"
+		(property "Reference" "RES"
 			(at 370.84 378.46 0)
 			(effects
 				(font
@@ -13222,7 +13222,7 @@
 		(instances
 			(project "Loom"
 				(path "/b6ef7529-600a-4e2f-9b83-5120e6f066ed"
-					(reference "LES")
+					(reference "RES")
 					(unit 1)
 				)
 			)
@@ -13238,7 +13238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c53fbf8d-ba6e-4752-a5cd-3f66cd60ffdc")
-		(property "Reference" "RES"
+		(property "Reference" "LES"
 			(at 370.84 388.62 0)
 			(effects
 				(font
@@ -13292,7 +13292,7 @@
 		(instances
 			(project "Loom"
 				(path "/b6ef7529-600a-4e2f-9b83-5120e6f066ed"
-					(reference "RES")
+					(reference "LES")
 					(unit 1)
 				)
 			)
