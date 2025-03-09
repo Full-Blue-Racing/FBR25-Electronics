@@ -4703,12 +4703,6 @@
 		(uuid "4f9cb62c-82bd-4675-9ed5-7b77faa8aff9")
 	)
 	(junction
-		(at 553.72 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c7ff316-39ec-4b13-9a22-173017ae174b")
-	)
-	(junction
 		(at 223.52 233.68)
 		(diameter 0)
 		(color 0 0 64 1)
@@ -4811,16 +4805,16 @@
 		(uuid "b5f3bad8-5c29-4c2f-85c8-37db08b81d70")
 	)
 	(junction
-		(at 474.98 241.3)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "bd333085-63fa-4c6e-ae6b-cadb4217d303")
-	)
-	(junction
 		(at 292.1 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c152364a-dab8-461c-92e0-de7922fbf6f6")
+	)
+	(junction
+		(at 474.98 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3821afd-c391-40c4-970b-c44252314187")
 	)
 	(junction
 		(at 294.64 81.28)
@@ -5056,17 +5050,6 @@
 			(type default)
 		)
 		(uuid "0781aa6f-16c2-4c59-9355-02643569e35c")
-	)
-	(wire
-		(pts
-			(xy 172.72 218.44) (xy 38.1 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "08049262-005c-47ab-83f1-5d0e66de2897")
 	)
 	(wire
 		(pts
@@ -6119,17 +6102,6 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 259.08) (xy 474.98 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4b0b3dd9-b406-46e8-a331-7828751908f6")
-	)
-	(wire
-		(pts
 			(xy 106.68 373.38) (xy 111.76 373.38)
 		)
 		(stroke
@@ -6258,17 +6230,6 @@
 			(type default)
 		)
 		(uuid "527facb0-80b2-4f84-ae85-e977127e6961")
-	)
-	(wire
-		(pts
-			(xy 474.98 149.86) (xy 474.98 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "529ca6d9-bdeb-4a40-8f00-83bb03cc7884")
 	)
 	(wire
 		(pts
@@ -6614,7 +6575,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 317.5) (xy 541.02 317.5)
+			(xy 373.38 317.5) (xy 474.98 317.5)
 		)
 		(stroke
 			(width 0)
@@ -7316,6 +7277,17 @@
 	)
 	(wire
 		(pts
+			(xy 474.98 317.5) (xy 541.02 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "97210907-e88a-406c-bb26-c7056d74e18c")
+	)
+	(wire
+		(pts
 			(xy 203.2 25.4) (xy 132.08 25.4)
 		)
 		(stroke
@@ -7966,17 +7938,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 307.34) (xy 172.72 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "bf8078ad-495b-493e-89e5-31617149df75")
-	)
-	(wire
-		(pts
 			(xy 429.26 22.86) (xy 538.48 22.86)
 		)
 		(stroke
@@ -8339,17 +8300,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d8a09a19-489a-48db-be2d-952a02ce339d")
-	)
-	(wire
-		(pts
-			(xy 474.98 149.86) (xy 553.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d906c2ec-6a6f-4b53-8c44-7941b1d4de6a")
 	)
 	(wire
 		(pts
@@ -8771,17 +8721,6 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 307.34) (xy 172.72 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "f32e4c3b-396c-4b59-9c9f-5e9573bca988")
-	)
-	(wire
-		(pts
 			(xy 236.22 330.2) (xy 152.4 330.2)
 		)
 		(stroke
@@ -8789,6 +8728,17 @@
 			(type default)
 		)
 		(uuid "f3bc1992-4a24-436f-9741-82632611048d")
+	)
+	(wire
+		(pts
+			(xy 474.98 259.08) (xy 474.98 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f3de2c8d-1297-4779-8bfb-11ee6c4fb2cb")
 	)
 	(wire
 		(pts
@@ -9157,16 +9107,6 @@
 		)
 		(uuid "2c281b9d-682f-4329-b3d6-c56afa96e1cd")
 	)
-	(label "LVMS 12V"
-		(at 459.74 307.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f821635-13b1-4307-92d6-0b4bf2c58a0d")
-	)
 	(label "Starter_12V"
 		(at 490.22 86.36 0)
 		(effects
@@ -9416,17 +9356,6 @@
 			(justify right bottom)
 		)
 		(uuid "76aa8643-b5b4-4ed0-baf6-c2a24c6206ad")
-	)
-	(label "LVMS 12V"
-		(at 543.56 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "78eff0ca-3a9b-46f8-be1f-f2dbaebecc5e")
 	)
 	(label "CNK-"
 		(at 299.72 137.16 0)
@@ -14664,16 +14593,6 @@
 		(pin "TPSPwr2" output
 			(at 38.1 231.14 0)
 			(uuid "19d0a12d-b026-4544-8d77-781f4af87c39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LVMSPWR" input
-			(at 38.1 218.44 0)
-			(uuid "5e914fea-0b7e-40b9-aa01-02e187abb7d6")
 			(effects
 				(font
 					(size 1.27 1.27)

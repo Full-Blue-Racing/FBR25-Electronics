@@ -3220,7 +3220,7 @@
 		)
 		(uuid "18c15869-996d-415d-a1af-d138bf7cb36c")
 	)
-	(text "FIREWALL CONNECTOR\nHDP26-24-31PE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 LVMSPWR\n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31 SENGND"
+	(text "FIREWALL CONNECTOR\nHDP26-24-31PE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 \n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31 SENGND"
 		(exclude_from_sim no)
 		(at 347.98 208.28 0)
 		(effects
@@ -3489,6 +3489,12 @@
 		(uuid "465b943c-f525-4217-be34-844e9296fbba")
 	)
 	(junction
+		(at 180.34 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c11380a-ca07-4128-8a25-fcd37ea069ca")
+	)
+	(junction
 		(at 48.26 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3519,16 +3525,16 @@
 		(uuid "a37df88f-7d96-4024-972d-2355bff1b28e")
 	)
 	(junction
+		(at 180.34 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61b3712-8cad-4dc0-88d1-42148bcc8de8")
+	)
+	(junction
 		(at 180.34 101.6)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "bbf36498-ca75-45d0-a02d-122ddcd4f2b4")
-	)
-	(junction
-		(at 180.34 17.78)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "c56006b9-870e-4542-8ff1-3b517395ee25")
 	)
 	(junction
 		(at 180.34 251.46)
@@ -3637,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 17.78) (xy 241.3 17.78)
+			(xy 180.34 20.32) (xy 241.3 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3832,17 +3838,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 17.78) (xy 180.34 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "28a847ea-79bd-4271-84c0-470631cdca2a")
-	)
-	(wire
-		(pts
 			(xy 104.14 119.38) (xy 241.3 119.38)
 		)
 		(stroke
@@ -3890,6 +3885,17 @@
 			(type default)
 		)
 		(uuid "3459a926-9f50-4812-9109-7efd09659232")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 180.34 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3b6a600b-fdd8-43d7-a6f8-9410a0f22a1d")
 	)
 	(wire
 		(pts
@@ -3954,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 162.56) (xy 182.88 162.56)
+			(xy 40.64 162.56) (xy 180.34 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3972,17 +3978,6 @@
 			(type default)
 		)
 		(uuid "4944c656-8440-48ef-92c4-dcf93a99984b")
-	)
-	(wire
-		(pts
-			(xy 182.88 22.86) (xy 241.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4a4f4a51-71ed-4935-a727-97ca7c52e99d")
 	)
 	(wire
 		(pts
@@ -4180,17 +4175,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 20.32) (xy 114.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6d830a25-607f-4e6a-b134-bea8b3098bea")
-	)
-	(wire
-		(pts
 			(xy 104.14 109.22) (xy 241.3 109.22)
 		)
 		(stroke
@@ -4261,6 +4245,17 @@
 			(type default)
 		)
 		(uuid "7439969d-e885-422e-9e0f-c3d59d9d7f07")
+	)
+	(wire
+		(pts
+			(xy 180.34 20.32) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "74f1b6f0-2087-424e-af2d-68d1bd18b4f9")
 	)
 	(wire
 		(pts
@@ -4408,17 +4403,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 20.32) (xy 241.3 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "909cff53-114d-4fb9-bbca-a3870187d9d3")
-	)
-	(wire
-		(pts
 			(xy 35.56 134.62) (xy 48.26 134.62)
 		)
 		(stroke
@@ -4512,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 22.86) (xy 114.3 22.86)
+			(xy 48.26 22.86) (xy 241.3 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4571,6 +4555,17 @@
 			(type default)
 		)
 		(uuid "a8b7c815-1f3c-48be-a785-0e6d51c5cdb0")
+	)
+	(wire
+		(pts
+			(xy 180.34 162.56) (xy 180.34 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "aa50743d-2555-4cc1-8044-7acfdae828c6")
 	)
 	(wire
 		(pts
@@ -4738,17 +4733,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 162.56) (xy 182.88 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "c876d910-ddb2-4b13-96d7-6e23e0937e57")
-	)
-	(wire
-		(pts
 			(xy 190.5 254) (xy 190.5 226.06)
 		)
 		(stroke
@@ -4823,7 +4807,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 20.32) (xy 48.26 20.32)
+			(xy 48.26 20.32) (xy 180.34 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4927,17 +4911,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 180.34 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "e5f71497-016f-47cf-ae7e-a294fb049296")
-	)
-	(wire
-		(pts
 			(xy 40.64 185.42) (xy 76.2 185.42)
 		)
 		(stroke
@@ -4966,17 +4939,6 @@
 			(type default)
 		)
 		(uuid "ea185729-7f0e-4842-b87f-c448145ac229")
-	)
-	(wire
-		(pts
-			(xy 111.76 17.78) (xy 111.76 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "ea9cfa65-7820-469d-85c9-82c38a43c6eb")
 	)
 	(wire
 		(pts
@@ -5009,17 +4971,6 @@
 			(type default)
 		)
 		(uuid "ee4d71bd-bd8f-489f-951b-4fa40753b81c")
-	)
-	(wire
-		(pts
-			(xy 180.34 17.78) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "ee552bb0-ae08-4df5-9349-168eab365623")
 	)
 	(wire
 		(pts
@@ -5205,6 +5156,16 @@
 		)
 		(uuid "3c603426-ce87-4872-a578-ca0c751c583c")
 	)
+	(label "MiscPWR"
+		(at 58.42 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fc7df01-46bf-4694-9e44-7526ed898bfc")
+	)
 	(label "APPS-SIG2"
 		(at 48.26 53.34 0)
 		(effects
@@ -5374,17 +5335,6 @@
 			(justify left bottom)
 		)
 		(uuid "a3e95215-ea82-4f15-9ca4-2993090ed34b")
-	)
-	(label "LVMS 12V"
-		(at 58.42 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2be7e26-0563-400d-9a30-498495cde8c6")
 	)
 	(label "STEP-1+"
 		(at 48.26 55.88 0)
@@ -5815,7 +5765,7 @@
 	)
 	(hierarchical_label "MiscPWR"
 		(shape input)
-		(at 241.3 17.78 0)
+		(at 241.3 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5890,20 +5840,9 @@
 		)
 		(uuid "b72887ce-5c06-4319-9024-c1b33088733f")
 	)
-	(hierarchical_label "LVMSPWR"
-		(shape input)
-		(at 241.3 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b89bc107-fa3c-4245-b16f-db46f04e0039")
-	)
 	(hierarchical_label "StepperPWR"
 		(shape input)
-		(at 241.3 20.32 0)
+		(at 241.3 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
