@@ -4378,6 +4378,19 @@
 		)
 		(uuid "96eb1d67-0467-49d1-b8de-c9a2b5fc8208")
 	)
+	(text "FIREWALL CONNECTOR\nHDP24-24-31SE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 \n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31 SENGND"
+		(exclude_from_sim no)
+		(at 20.32 129.54 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9e27463d-ea3b-4e33-8258-817a3c943854")
+	)
 	(text "High\nLow"
 		(exclude_from_sim no)
 		(at 414.02 39.37 0)
@@ -4713,12 +4726,6 @@
 		(diameter 0)
 		(color 253 0 0 1)
 		(uuid "6e35fa10-c588-4c13-8a23-2f5fed38c182")
-	)
-	(junction
-		(at 294.64 350.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ff11652-a44e-47df-9ef9-a649118b9612")
 	)
 	(junction
 		(at 474.98 259.08)
@@ -5371,17 +5378,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 337.82) (xy 45.72 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 64 1)
-		)
-		(uuid "1c9c99ef-f8cb-4a02-8713-2f12135a453d")
-	)
-	(wire
-		(pts
 			(xy 426.72 375.92) (xy 444.5 375.92)
 		)
 		(stroke
@@ -5665,17 +5661,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2b87e316-2e0c-4286-b8e0-87baee73ae08")
-	)
-	(wire
-		(pts
-			(xy 38.1 337.82) (xy 45.72 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 64 1)
-		)
-		(uuid "2c642bff-c45b-47b6-9d22-5d3bce40891d")
 	)
 	(wire
 		(pts
@@ -6550,17 +6535,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "64ce3b51-c685-4f09-bd61-cac6b929fe89")
-	)
-	(wire
-		(pts
-			(xy 45.72 350.52) (xy 294.64 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 64 1)
-		)
-		(uuid "6530ef74-9716-46bb-b46d-e180b2c15a32")
 	)
 	(wire
 		(pts
@@ -7719,17 +7693,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 233.68) (xy 294.64 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 64 1)
-		)
-		(uuid "b76adff0-9991-4664-9ff1-399d948fbbb1")
-	)
-	(wire
-		(pts
 			(xy 195.58 27.94) (xy 203.2 27.94)
 		)
 		(stroke
@@ -8856,7 +8819,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 350.52) (xy 294.64 393.7)
+			(xy 294.64 233.68) (xy 294.64 393.7)
 		)
 		(stroke
 			(width 0)
@@ -14603,16 +14566,6 @@
 		(pin "BLSSig" output
 			(at 38.1 269.24 0)
 			(uuid "c07b9879-00d9-432c-8b11-4e1b09c27f17")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENGND" input
-			(at 38.1 337.82 0)
-			(uuid "d9da60d1-4830-41de-9871-52d71b1d93c9")
 			(effects
 				(font
 					(size 1.27 1.27)
