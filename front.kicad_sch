@@ -3125,6 +3125,18 @@
 		(uuid 8fb8bab7-bd84-4912-9e4f-3e8542b8bfd3)
 	)
 	(rectangle
+		(start 238.76 15.24)
+		(end 261.62 391.16)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7636674-4d19-46d1-8916-a68dbcd50924)
+	)
+	(rectangle
 		(start 25.4 378.46)
 		(end 35.56 393.7)
 		(stroke
@@ -3222,7 +3234,7 @@
 	)
 	(text "FIREWALL CONNECTOR\nHDP26-24-31PE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 \n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31"
 		(exclude_from_sim no)
-		(at 347.98 208.28 0)
+		(at 261.62 200.66 0)
 		(effects
 			(font
 				(size 2.54 2.54)
