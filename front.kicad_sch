@@ -3232,7 +3232,7 @@
 		)
 		(uuid "18c15869-996d-415d-a1af-d138bf7cb36c")
 	)
-	(text "FIREWALL CONNECTOR\nHDP26-24-31PE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 \n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31"
+	(text "FIREWALL CONNECTOR\nHDP26-24-31PE\n\nPinout:\n 1 MiscPWR\n 2 StepperPWR\n 3 \n 4 IdleCtrl\n 5 Blip\n 6 TPS Power 1\n 7 TPS Signal 1\n 8 TPS Ground 1\n 9 TPS Power 2\n10 TPS Signal 2\n11 TPS Ground 2\n12 Stepper 1+\n13 Stepper 1-\n14 Stepper 2+\n15 Stepper 2-\n16 Neutral\n17 Shift Down\n18 Shift Up\n19 Tachometer\n20 Shutdown Out\n21 Starter Sig\n22 Fan Sig\n23 BLS Sig\n24 Launch Sig\n25 Launch LED\n26 \n27 \n28 \n29 CANH\n30 CANL\n31 Shutdown PWR"
 		(exclude_from_sim no)
 		(at 261.62 200.66 0)
 		(effects
@@ -3537,12 +3537,6 @@
 		(uuid "a37df88f-7d96-4024-972d-2355bff1b28e")
 	)
 	(junction
-		(at 180.34 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a61b3712-8cad-4dc0-88d1-42148bcc8de8")
-	)
-	(junction
 		(at 180.34 101.6)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -3783,6 +3777,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 162.56) (xy 58.42 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218b36a8-9f6f-417d-adb8-8716580c43e7")
+	)
+	(wire
+		(pts
 			(xy 68.58 335.28) (xy 68.58 337.82)
 		)
 		(stroke
@@ -3904,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 180.34 162.56)
+			(xy 180.34 101.6) (xy 180.34 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3983,17 +3987,6 @@
 			(type default)
 		)
 		(uuid "44189b63-302e-4875-9e62-c8cb16c3c0f9")
-	)
-	(wire
-		(pts
-			(xy 40.64 162.56) (xy 180.34 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "485a2cd4-ffca-46d9-9ba1-ef6ad0560a8b")
 	)
 	(wire
 		(pts
@@ -4537,17 +4530,6 @@
 			(type default)
 		)
 		(uuid "a8b7c815-1f3c-48be-a785-0e6d51c5cdb0")
-	)
-	(wire
-		(pts
-			(xy 180.34 162.56) (xy 180.34 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "aa50743d-2555-4cc1-8044-7acfdae828c6")
 	)
 	(wire
 		(pts
@@ -5105,7 +5087,7 @@
 		)
 		(uuid "3a6042ab-cd59-4b4b-b1ba-eaf60f5380e4")
 	)
-	(label "MiscPWR"
+	(label "ShutdownPWR"
 		(at 58.42 162.56 0)
 		(effects
 			(font
@@ -5355,6 +5337,29 @@
 		)
 		(uuid "ff21263a-bedc-46bb-a60d-1f2841b1fb11")
 	)
+	(global_label "CANH"
+		(shape input)
+		(at 241.3 378.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "12fa109a-6089-494f-b1a8-fc3d54d0ae9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2952 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANL"
 		(shape input)
 		(at 45.72 266.7 0)
@@ -5419,6 +5424,29 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 241.3 381 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "583d535b-f37f-451e-99bd-1276ece84863")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.5976 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5693,7 +5721,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 241.3 383.54 0)
+		(at 241.3 378.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,7 +5919,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 172.72 0)
+		(at 35.56 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5900,7 +5928,7 @@
 		(dnp no)
 		(uuid "0eaf697a-643e-43a5-b51e-ec631116b47c")
 		(property "Reference" "INS1"
-			(at 43.18 167.64 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5937,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 43.18 170.18 0)
+			(at 43.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 172.72 0)
+			(at 35.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 172.72 0)
+			(at 35.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5964,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 172.72 0)
+			(at 35.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7537,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 162.56 0)
+		(at 35.56 172.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7518,7 +7546,7 @@
 		(dnp no)
 		(uuid "d6f4aae5-8b12-4513-9395-b793d06c095e")
 		(property "Reference" "BTS1"
-			(at 43.18 157.48 0)
+			(at 43.18 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7555,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 43.18 160.02 0)
+			(at 43.18 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 162.56 0)
+			(at 35.56 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 162.56 0)
+			(at 35.56 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7582,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 162.56 0)
+			(at 35.56 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

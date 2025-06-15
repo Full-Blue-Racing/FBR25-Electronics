@@ -4053,7 +4053,7 @@
 		)
 		(uuid "131f5799-882c-4e38-ba37-744168f781ff")
 	)
-	(text "ECU  2A\nLambda  5A\nStepper  5A\nMisc 10A\nQS  ?A\nINJA  5A\nINJB  5A\nFP 10A\nSPK 20A\nFan 20A\n "
+	(text "ECU  2A\nLambda  5A\nStepper  5A\nMisc 10A\n\nINJA  5A\nINJB  5A\nFP 10A\nSPK 20A\nFan 20A\n "
 		(exclude_from_sim no)
 		(at 563.88 292.1 0)
 		(effects
@@ -4063,6 +4063,17 @@
 			(justify right)
 		)
 		(uuid "132af5e6-4a18-4495-b2da-bc37fdc83b54")
+	)
+	(text "ECU 2A\nLambda 5A\nETC CU 5A\nETC Stepper 5A\nShutdown Circuit 5A\nQS CU 5A\nBrake Light 5A\nSupplemental Electronics 10A\n\nINJA 5A\nINJB 5A\nFP 10A\nSpark 20A\nFans 20A"
+		(exclude_from_sim no)
+		(at 621.538 290.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "133dd4c6-ba68-44f4-a0bd-c3494496d84a")
 	)
 	(text "(12V) Power\nCANL\nCANH\nSens1S\nSens1G\nSens2S\nSens2G\nGnd\n "
 		(exclude_from_sim no)
