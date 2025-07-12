@@ -5222,9 +5222,9 @@
 		)
 		(uuid "a130e1ad-79e5-4b21-ae73-fbb700ec5c9f")
 	)
-	(text "Red - up to 15A each\nGreen - up to 20A each"
+	(text "Red - up to 15A each\nOrange - up to 10A each\nGreen - up to 20A each"
 		(exclude_from_sim no)
-		(at 530.86 160.02 0)
+		(at 530.86 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5638,7 +5638,7 @@
 	(junction
 		(at 474.98 284.48)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 255 0 1)
 		(uuid "a550e788-57fd-44c0-a28b-a3cfff56a024")
 	)
 	(junction
@@ -5680,7 +5680,7 @@
 	(junction
 		(at 485.14 251.46)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 255 0 1)
 		(uuid "c793f4e9-eba0-4241-8053-865b517afbd8")
 	)
 	(junction
@@ -5896,6 +5896,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "033b4697-bc2b-45d1-9f5c-a1402f749490")
 	)
@@ -5926,6 +5927,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "03eba73a-c85f-4da0-bdb0-51175c249a33")
 	)
@@ -6068,6 +6070,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "105d85d9-b8df-40f0-a4d9-f151e66ddd81")
 	)
@@ -6170,6 +6173,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "17e1846d-cd5e-448b-a31d-322c248e9f1c")
 	)
@@ -6545,6 +6549,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "2b0faafc-4510-47c6-8920-d7e6669774dc")
 	)
@@ -6717,6 +6722,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "37d4d533-4184-46b2-a341-45cc33e8a135")
 	)
@@ -6862,6 +6868,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "40a469d9-1140-417c-a203-70cb3b9e8256")
 	)
@@ -6925,7 +6932,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
+			(color 0 255 0 1)
 		)
 		(uuid "43494d36-cb2b-413b-92f5-442649776495")
 	)
@@ -7098,6 +7105,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "50b0858b-6bb1-4c31-b527-fd6491d292a0")
 	)
@@ -7170,6 +7178,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "54cf4652-e040-4a37-96da-ed338ff2e20b")
 	)
@@ -7180,6 +7189,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "54dd9c6d-1583-46f6-94bf-2775a6627717")
 	)
@@ -7253,6 +7263,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "595c02b1-e4c9-494b-91af-78d2923457cc")
 	)
@@ -7355,6 +7366,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "5db6bee7-4ee0-4ac8-8398-e8ed7b512945")
 	)
@@ -7365,6 +7377,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "5ef2b23a-d92b-46d3-8e77-88aef4c36705")
 	)
@@ -7446,6 +7459,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "63520df4-ec2e-4515-818e-5589254ecd49")
 	)
@@ -7487,6 +7501,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "64ce6e3f-1404-4bbb-89da-3d4cb661e191")
 	)
@@ -7601,6 +7616,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "6dcd3a94-546c-4633-896e-1d6d8871cea4")
 	)
@@ -7696,6 +7712,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "71fcaff4-972b-447b-8e66-9a92bcdab561")
 	)
@@ -7747,6 +7764,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "74b806a9-0eb0-4714-a79d-1b48b0d84a69")
 	)
@@ -7868,6 +7886,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "7c9f58b0-351b-42ac-9bb6-845758ae1500")
 	)
@@ -7909,6 +7928,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "7d36781c-606b-46f2-9655-164a6f488164")
 	)
@@ -7950,6 +7970,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "7f80a041-9d91-4850-9427-b9e91bb7bc9d")
 	)
@@ -8165,7 +8186,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
+			(color 0 255 0 1)
 		)
 		(uuid "8a01abd0-e08a-4b4b-8e84-221d3f1dffd2")
 	)
@@ -8257,6 +8278,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "9011aa4e-b3bc-4272-ab8a-06f7855c0472")
 	)
@@ -8288,6 +8310,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "92b46dc2-c0a5-407c-b8e3-40caae776dfb")
 	)
@@ -8462,6 +8485,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "a19e945c-e63a-4d19-b732-44e01ce66f46")
 	)
@@ -8492,6 +8516,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "a1f5b802-9a3d-47ea-ad24-59a3d168e780")
 	)
@@ -8595,6 +8620,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "a74baa6b-c89a-4f3a-a95f-69058ddc726d")
 	)
@@ -8636,6 +8662,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "aa017208-ad1f-4381-b836-65b48dc83576")
 	)
@@ -8666,6 +8693,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "acff7033-c7f0-4d6b-a977-41ae2b640f99")
 	)
@@ -8686,7 +8714,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
+			(color 0 255 0 1)
 		)
 		(uuid "af3626eb-77eb-4e53-a623-72e71a148d69")
 	)
@@ -8777,6 +8805,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "b395e6de-a80c-4b9f-9eb0-08d8c761c7d0")
 	)
@@ -8838,6 +8867,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "b817a911-2b3d-4b36-a130-088824f2a89d")
 	)
@@ -8870,6 +8900,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "b91d9f2c-9799-4b41-b0c4-a49e10e24a5d")
 	)
@@ -8995,6 +9026,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "bdaa4d60-9716-4d3a-a1a1-17e36bc46341")
 	)
@@ -9300,6 +9332,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "d009b739-98a7-4f5a-8fb1-5a824e91baa2")
 	)
@@ -9381,6 +9414,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 226 113 0 1)
 		)
 		(uuid "d7da902f-3985-4c16-bc46-32af9ef7ddaa")
 	)
@@ -9491,6 +9525,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "dc3ca960-f7d2-43bf-9865-dbdc9abdfc18")
 	)
@@ -9531,6 +9566,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "df35b9d0-41f6-4368-9ba3-94c6a80239cc")
 	)
@@ -9632,7 +9668,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
+			(color 0 255 0 1)
 		)
 		(uuid "e551d2f0-0892-4044-af9e-04c6c0416959")
 	)
@@ -9643,6 +9679,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "e55789a5-c069-4922-8840-8ca089a251fe")
 	)
@@ -9910,6 +9947,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "f3ef28fe-defa-4047-a8c9-e7370a85f909")
 	)
@@ -9951,6 +9989,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "f5a6b016-5b7b-45b2-a8cc-cc5577f884a0")
 	)
